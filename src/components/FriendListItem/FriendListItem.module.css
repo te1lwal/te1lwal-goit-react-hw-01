@@ -1,0 +1,19 @@
+.list_container {
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offline,
+.online {
+  font-weight: 400;
+  font-size: smaller;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
